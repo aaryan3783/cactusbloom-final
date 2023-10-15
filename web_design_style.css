@@ -1,0 +1,57 @@
+:root{
+    --bg-color:#e3edf7;
+    --gradient-white-bg:linear-gradient(0deg,#fff 0%,#edf4fa 51%,#e5eef7 100%);
+    --gradient-color-bg:linear-gradient(180deg,rgb(15, 14, 14)0%,
+                                                rgb(60, 58, 60)51%,
+                                                rgb(179, 178, 179)100%);
+    --main-color:#183b56;
+    --font-color:#90979f;
+    --hover-box-shadow:rgba(0,0,0,0.19)0px 10px 20px,
+                       rgba(0,0,0,0.23)0px 6px 6px;     
+    --gradient-white-bg2:linear-gradient(98deg,#e5eef7 0%,#fff 100%);                                                          
+}
+
+
+.heading{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.heading h1{
+    margin-bottom: 25px;
+}
+.heading p{
+    font-size: 1rem;
+}
+
+#plans{
+    margin-top: 25px;
+    font-size:2rem ;
+}
+
+
+.plans_mains{
+    /* border: 2px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#plan_items{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background:var(--gradient-white-bg2);
+    
+}
+#plan_items:hover{
+    background: var( --gradient-white-bg);
+    border: 3px solid black;
+}
